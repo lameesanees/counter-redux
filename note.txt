@@ -1,0 +1,20 @@
+1 Create App - npx create-vite@latest counter-redux --template react
+        2. cd counter-redux
+        3. npm install 
+        4. code .
+        5. To open react project directly from vs code,
+            update your package.json file and add the following lines inside scripts
+
+            scripts:[
+                "dev":"vite --open"
+            ]
+
+            OR
+
+            run the following command : npm run dev -- --open
+
+        6. Clear the unwanted codes
+
+        7. Install Redux using https://redux-toolkit.js.org/ 
+                    1 npm install @reduxjs/toolkit
+                    2 npm install react-redux
