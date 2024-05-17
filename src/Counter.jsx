@@ -27,7 +27,7 @@ function Counter() {
 
     return (
         <div>
-            <div className="border border-dark m-5 p-5 text-center bg-light rounded">
+            <div className=" m-5 p-5 text-center bg-light rounded">
                 <h1 style={{ fontSize: `${fontSize}px` }}>{count}</h1>
                 <div className="d-flex justify-content-evenly">
                     <button onClick={() => dispatch(incrementCounter())} className="btn btn-primary">Increment</button>
